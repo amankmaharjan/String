@@ -1,0 +1,8 @@
+o copy the content of one file to the other file in Java programming, first,
+you have to ask to the user to enter the source and destination file name with extension to copy
+the contents of the source file to the destination file as shown in the following program.
+Java Programming Code to Copy Files
+
+Following are the two Java programs,
+the first program overwrites the content of the source file to the destination file whereas
+the second program append the content of the source file to the destination file.
