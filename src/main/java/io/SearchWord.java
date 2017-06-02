@@ -40,7 +40,7 @@ public class SearchWord {
     public static int search(String keyword, List<String> dataFile) {
         int count = 0;
         for (String s : dataFile) {
-            String[] perLineWords = s.replaceAll(",", "").split("\\s+|\t");
+            String[] perLineWords = s.replaceAll(",", "").split("\\s+|\\t");
             System.out.println(perLineWords.length);
             for (String word : perLineWords) {
                 System.out.print(word);
